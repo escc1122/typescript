@@ -39,5 +39,13 @@ namespace API
 			
             }, this);           
         }
+		
+	public test(){
+		let callBack = (data:Test.ResponseStruct.OpenResponseStruct[])=>{
+			.....
+		}
+		let test = new API.Test();
+		test.getOpenControl(callBack);
+	}
     }
 }
